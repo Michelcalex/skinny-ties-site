@@ -78,8 +78,29 @@ h1 {
     border: 1px solid green;
 }
 
-#product-container {
+#content-container {
     background-color: #fff;
-    border: 1px solid blue;   
+    border: 1px solid blue;
+    text-align: center;
+}
+
+.product-container {
+    
+    border: 1px solid green;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-container div {
+    border: 1px solid red;
+    background-color: #f6f6f6;
+}
+
+h2 {
+    border: 1px solid pink;
+}
+
+#content-container a {
+    text-transform: uppercase;
 }
 
