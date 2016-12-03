@@ -1,0 +1,31 @@
+html {
+    background-color: lightblue;
+    font-family: 'Catamaran', tahoma, sans-serif;
+}
+
+.gutters {
+    padding: 0 22%;
+}
+
+
+#promotion-container {
+    background-color: #fa6938;
+    display: flex;
+    align-items: center;  
+    color:#fff;
+    font-size: 0.9em;
+}
+
+#promotion-container li {
+    padding: 10px;
+    list-style: none;
+    text-shadow: 0.5px 0.5px gray;
+}
+
+.shipping {
+    background-color: #c7532c;
+    border-radius: 2px;
+    padding: 5px !important;
+    text-transform: uppercase;
+    text-shadow: 0px !important;
+}
