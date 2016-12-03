@@ -114,3 +114,27 @@ h2 {
 .sub-footer-box-elements {
     border: 1px solid purple;
 }
+
+footer {
+    background-color: #f4f4f4;
+}
+
+#footer-container {
+    border: 1px solid orange;
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav-bottom {
+    border: 1px solid blue;
+    display: flex;
+}
+
+#nav-bottom ul li {
+    list-style: none;
+}
+
+
+#contact-us-container {
+    border: 1px solid green;
+}
