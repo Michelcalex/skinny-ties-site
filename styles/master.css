@@ -104,3 +104,13 @@ h2 {
     text-transform: uppercase;
 }
 
+#sub-footer {
+   background-color: #fff;
+   border: 1px solid blue; 
+   display: flex;
+   justify-content: space-between;
+}
+
+.sub-footer-box-elements {
+    border: 1px solid purple;
+}
