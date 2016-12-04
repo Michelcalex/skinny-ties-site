@@ -84,7 +84,7 @@ nav ul li a {
 }
 
 #account a:hover {
-    color: blue;
+    color: #1782e0;;
 }
 
 #cart-search-container {
@@ -279,15 +279,19 @@ h4 {
 }
 
 #social-media-container div {
-    padding-right: 45px;
+    padding-right: 10px;
 }
 
 #facebook-sprite {
     background: url('../assets/sprite.png') no-repeat -320px 0;
+    width: 35px;
+	height: 35px;
 }
 
 #pinterest-sprite {
     background: url('../assets/sprite.png') no-repeat -320px -40px;
+    width: 35px;
+	height: 35px;
 }
 
 #twitter-sprite {
