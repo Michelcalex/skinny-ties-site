@@ -334,14 +334,12 @@ footer {
 }
 
 #footer-container {
-    border: 1px solid orange;
     display: flex;
     justify-content: space-between;
     padding-top: 30px;
 }
 
 #nav-bottom {
-    border: 1px solid blue;
     display: flex;
 }
 
@@ -369,23 +367,72 @@ h5 {
 
 
 #contact-us-container {
-    border: 1px solid green;
     background-color: #a2afc0;
-    padding: 10px;
+    padding: 0px 22px;
+    border-radius: 5px;
 }
 
 #contact-us-container h3 {
     color: #fff;
+    font-size: 2em;
+    font-weight: 100;
+    font-style: italic;
+    letter-spacing: 1px;
+    padding-right: 55px;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .contact-us-bottom {
-    border: 1px solid red;
+    display: flex;
+    margin-bottom: 20px;
 }
 
-.contact-us-left {
-    border: 1px solid green;
+.contact-us-left span {
+    font-size: 1.2em;
+    color: #fff;
+    display: flex;
+    letter-spacing: 0.5px;
+    line-height: 1.5em;
 }
 
 .contact-us-right {
-    border: 1px solid purple;
+    margin-left: 30px;
 }
+
+.contact-us-button {
+    background-color: #33a1ff;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 1.1em;
+    font-weight: 100;
+    border: 0px solid;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+#copyright-containter {
+    padding: 8px 0px 40px;
+}
+
+.copyright {
+    color: #909090;
+    font-size: 0.7em;
+}
+
+.copyright span {
+    margin-bottom: 5px;
+}
+.copyright a {
+    text-decoration: none;
+    border-bottom: 1px dotted #CCC;
+}
+
+.copyright a:hover {
+    text-decoration: none;
+    color: #33a1ff;
+    border-bottom: 1px dotted #CCC;
+}
+
+
+/*------------------Footer END--------------------- */
