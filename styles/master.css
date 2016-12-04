@@ -46,27 +46,19 @@ html {
 }
 
 #logo {
-    display: inline-block;
     width: 12%;
 }
 
-nav {
-    display: inline-block;
-}
-
 nav ul {
-    display: inline-block;
     font-size: 1.5em;
 }
 
 nav ul li {
-    list-style: none;
     display: inline-block;
     padding: 13px;
 }
 
 nav ul li a {
-    color: #000;
     text-decoration: none;
 }
 
@@ -119,7 +111,6 @@ nav ul li a {
     background: url('../assets/sprite.png') no-repeat -54px -28px;
     width: 14px;
 	height: 12px;
-    /*display: inline-block;*/
 }
 
 #cart-square {
@@ -158,30 +149,31 @@ input {
 
 #banner-container {
     background-color: #f4f4f4;
-    border: 1px solid blue;   
 }
 
 .ties {
-    border: 1px solid green;
     display: flex;
-    align-items: flex-start;
     justify-content: center;
 }
 
 .ties div {
     display: flex;
-    border: 1px solid orange;
     flex-direction: column;
     align-items: center;
+    font-weight: bold;
 }
 
 .ties div img {
-    padding-bottom: 10px;
+    padding-bottom: 15px;
+    width: 65%;
 }
 
 h1 {
     text-align: center;
-    border: 1px solid green;
+    font-size: 3.5em;
+    letter-spacing: 1px;
+    padding: 1.5em;
+    margin: 0px;
 }
 
 /*------------------Header Container END--------------------- */
