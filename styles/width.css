@@ -13,17 +13,17 @@
 
 
 /*------------------Width-header Container END--------------------- */
+
+/*------------------Width-Container START--------------- */
  #width-container {
-     margin:  0;
      display: flex;
      justify-content: space-between;
-     border: 1px solid yellow;
+     padding-top: 27px;
+     padding-bottom: 27px;
  }
 
 .width-content-container {
     padding:0px 5px;
-    margin-top: 10px;
-    color: pink;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -35,7 +35,7 @@
 }
 
 .pic-description {
-    border: 1px solid red;
+    border: 1px solid #c8c8c8;
     background-color:#f4f4f4;
 }
 
@@ -44,7 +44,41 @@
     font-size: 2em;
     letter-spacing: 1px;
     font-weight: 100;
+    margin: 15px 0px;
 }
+
+.pic-description p {
+    font-size: 1.1em;
+    line-height: 1.4em;
+}
+
+#nav-short {
+    padding-bottom: 30px;
+    padding-top: 3px;
+}
+
+.nav-short-container {
+    border: 1px solid #c8c8c8;
+    width: 14%;
+    padding: 5px;
+    margin-left: 5px;
+    margin-bottom: 27px;
+}
+
+.nav-short-container span {
+    padding: 0px 2px;
+    font-size: 0.75em;
+}
+
+.nav-short-container a {
+    color:#33a1ff;
+}
+
+.nav-short-container a:hover {
+    color: #1782e0;
+}
+
+/*------------------Width-Container END--------------------- */
 
 
 
