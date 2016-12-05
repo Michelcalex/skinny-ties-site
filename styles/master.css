@@ -6,7 +6,7 @@ html {
     padding: 0 8%;
 }
 
-.text-white {
+.txt-white {
     color:#fff;
 }
 
@@ -176,7 +176,7 @@ nav ul li a {
 
 #sub-footer {
    display: flex;
-   margin: -15px;
+   margin: -15px 0px;
 }
 
 .sub-footer-box-elements {

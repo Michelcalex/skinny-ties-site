@@ -1,0 +1,111 @@
+/*------------------Width-Header Container START--------------- */
+
+#width-header {
+    background-color: #a2afc0;
+    margin: -40px 0px 0px;
+}
+
+#width-header h1 {
+    font-size: 2.5em;
+    font-weight: 100;
+    padding: 27px 0px;
+}
+
+
+/*------------------Width-header Container END--------------------- */
+ #width-container {
+     margin:  0;
+     display: flex;
+     justify-content: space-between;
+     border: 1px solid yellow;
+ }
+
+.width-content-container {
+    padding:0px 5px;
+    margin-top: 10px;
+    color: pink;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.width-content-container img {
+    width: 100%;
+    height: auto;
+}
+
+.pic-description {
+    border: 1px solid red;
+    background-color:#f4f4f4;
+}
+
+.pic-description h3 {
+    color: #000;
+    font-size: 2em;
+    letter-spacing: 1px;
+    font-weight: 100;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*#width-container {
+    margin: -13px 0px;
+    padding-bottom: 50px;
+}
+
+#width-pic-container {
+    border: 1px solid green;
+    display: flex;
+}
+
+#width-pic-container div {
+    border: 1px solid blue;
+    text-align: center;
+}
+
+
+#width-pic-container div img {
+    width: 95%;
+    display: inline-block;
+}
+
+#extra-skinny {
+    float:left;
+}
+
+#narrow {
+    float:right;
+}*/
+/*dadfaodbadsbfas-------------------*/
+/*#width-pic-container {
+    border: 1px solid green;
+    display: flex;
+    justify-content: space-between;
+}
+
+#width-pic-container div {
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#width-pic-container div img {
+    width: 90%;
+}*/
+
+/*------------------Width Container END--------------------- */
