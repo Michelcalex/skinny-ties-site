@@ -6,6 +6,25 @@ html {
     padding: 0 8%;
 }
 
+.text-white {
+    color:#fff;
+}
+
+.txt-grey {
+    color: #909090;
+}
+
+.bkgnd-white {
+    background-color: #fff;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.txt-dec-none {
+    text-decoration: none;
+}
 
 /*------------------Promotion Container START--------------------- */
 #promotion-container {
@@ -15,8 +34,8 @@ html {
 #promotion-container ul {
     display: flex;
     align-items: center;  
-    color:#fff;
     font-size: 0.9em;
+    padding-left: 0px;
 }
 
 #promotion-container li {
@@ -25,22 +44,15 @@ html {
     text-shadow: 0.5px 0.5px gray;
 }
 
-#promotion-container li a {
-    color: #fff;
-    text-decoration:none;
-}
-
 .shipping {
     background-color: #c7532c;
     border-radius: 2px;
     padding: 4px 8px !important;
-    text-transform: uppercase;
 }
 /*------------------Promotion Container END--------------------- */
 
 /*------------------Header Container START--------------------- */
 #header-container {
-    background-color: #fff;
     display: flex;
     align-items: center;
 }
@@ -59,7 +71,6 @@ nav ul li {
 }
 
 nav ul li a {
-    text-decoration: none;
     color: #000;
 }
 
@@ -74,14 +85,11 @@ nav ul li a {
 .account {
     position: relative;
     bottom: 10px;  
-    text-transform: uppercase;
 }
 
 .account a {
     padding-left: 5px;
     font-size: 0.8em;
-    text-decoration: none;
-    color:#909090;
 }
 
 .account a:hover {
@@ -91,11 +99,6 @@ nav ul li a {
 #cart-search-container {
     display: flex;
     justify-content: flex-end;
-}
-
-#cart-search-container a {
-    color: #909090;
-    text-decoration: none;
 }
 
 .cart-box {
@@ -193,14 +196,11 @@ h1 {
 /*------------------Content Container START--------------- */
 
 #content-container {
-    background-color: #fff;
     text-align: center;
     padding-bottom: 90px;
 }
 
 #content-container a {
-    text-transform: uppercase;
-    text-decoration: none;
     color: #33a1ff;
     letter-spacing: 2px;
 }
@@ -251,7 +251,6 @@ h2 {
 }
 
 #sub-footer {
-   background-color: #fff;
    display: flex;
    margin: -15px;
 }
@@ -275,7 +274,6 @@ h2 {
 }
 
 .sub-footer-box-elements a {
-    text-decoration: none;
     color:#33a1ff;
     font-size: 0.96em;
 }
@@ -326,8 +324,6 @@ h4 {
 
 .subscribe-button {
     background-color: #33a1ff;
-    color: #fff;
-    text-transform: uppercase;
     margin-top: 10px;
     border-radius: 4px;
     font-size: 0.7em;
@@ -363,8 +359,6 @@ footer {
 
 #nav-bottom ul li, #nav-bottom ul li a {
     list-style: none;
-    color: #909090;
-    text-decoration: none;
     font-size: 0.95em;
 }
 
@@ -385,7 +379,6 @@ h5 {
 }
 
 #contact-us-container h3 {
-    color: #fff;
     font-size: 2em;
     font-weight: 100;
     font-style: italic;
@@ -402,7 +395,6 @@ h5 {
 
 .contact-us-left span {
     font-size: 1.2em;
-    color: #fff;
     display: flex;
     letter-spacing: 0.5px;
     line-height: 1.5em;
@@ -414,7 +406,6 @@ h5 {
 
 .contact-us-button {
     background-color: #33a1ff;
-    color: #fff;
     border-radius: 4px;
     font-size: 1.1em;
     font-weight: 100;
@@ -428,20 +419,15 @@ h5 {
 }
 
 .copyright {
-    color: #909090;
     font-size: 0.7em;
 }
 
 .copyright a {
-    text-decoration: none;
     border-bottom: 1px dotted #CCC;
-    color: #909090;
 }
 
 .copyright a:hover {
-    text-decoration: none;
     color: #33a1ff;
-    border-bottom: 1px dotted #CCC;
 }
 
 .made-by {
