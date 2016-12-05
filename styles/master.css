@@ -6,9 +6,13 @@ html {
     padding: 0 8%;
 }
 
+
 /*------------------Promotion Container START--------------------- */
 #promotion-container {
     background-color: #fa6938;
+}
+
+#promotion-container ul {
     display: flex;
     align-items: center;  
     color:#fff;
@@ -31,13 +35,10 @@ html {
     border-radius: 2px;
     padding: 4px 8px !important;
     text-transform: uppercase;
-    text-shadow: 0px !important;
 }
-
 /*------------------Promotion Container END--------------------- */
 
 /*------------------Header Container START--------------------- */
-
 #header-container {
     background-color: #fff;
     display: flex;
@@ -96,6 +97,7 @@ nav ul li a {
     color: #909090;
     text-decoration: none;
 }
+
 #cart-box {
     border: 1px solid #606060;
     display: flex;
