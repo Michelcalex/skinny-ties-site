@@ -17,7 +17,6 @@
 /*------------------Width-Container START--------------- */
  #width-container {
      display: flex;
-     justify-content: space-between;
      padding-top: 27px;
      padding-bottom: 27px;
  }
@@ -31,16 +30,13 @@
 
 .width-content-container img {
     width: 100%;
-    height: auto;
 }
 
 .pic-description {
-    border: 1px solid #c8c8c8;
     background-color:#f4f4f4;
 }
 
 .pic-description h3 {
-    color: #000;
     font-size: 2em;
     letter-spacing: 1px;
     font-weight: 100;
@@ -58,7 +54,6 @@
 }
 
 .nav-short-container {
-    border: 1px solid #c8c8c8;
     width: 14%;
     padding: 5px;
     margin-left: 5px;
@@ -79,67 +74,3 @@
 }
 
 /*------------------Width-Container END--------------------- */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*#width-container {
-    margin: -13px 0px;
-    padding-bottom: 50px;
-}
-
-#width-pic-container {
-    border: 1px solid green;
-    display: flex;
-}
-
-#width-pic-container div {
-    border: 1px solid blue;
-    text-align: center;
-}
-
-
-#width-pic-container div img {
-    width: 95%;
-    display: inline-block;
-}
-
-#extra-skinny {
-    float:left;
-}
-
-#narrow {
-    float:right;
-}*/
-/*dadfaodbadsbfas-------------------*/
-/*#width-pic-container {
-    border: 1px solid green;
-    display: flex;
-    justify-content: space-between;
-}
-
-#width-pic-container div {
-    border: 1px solid blue;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-#width-pic-container div img {
-    width: 90%;
-}*/
-
-/*------------------Width Container END--------------------- */
