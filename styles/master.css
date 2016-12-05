@@ -147,8 +147,17 @@ nav ul li a {
 
 /*------------------Header Container END--------------------- */
 
+.perforated-border {
+    border: 7px solid transparent;
+    border-image: url(../assets/perforated-bottom@2x.png) 0 0 30 0 repeat;
+    position: relative;
+    top: -8px;
+    width: 100%;
+}
+
 #banner-container {
     background-color: #f4f4f4;
+    margin: -13px;
 }
 
 .ties {
@@ -230,12 +239,27 @@ h2 {
 
 /*------------------Sub-footer START--------------- */
 
+.x-border {
+    border: 7px solid transparent;
+    border-image: url(../assets/hatch-light@2x.png) 30 0 0 0 repeat;
+    position: relative;
+    top: -8px;
+    width: 100%;
+}
+
 #sub-footer {
    background-color: #fff;
    display: flex;
-   border: 1px solid grey;
+   margin: -15px;
 }
 
+.perforated-border {
+    border: 7px solid transparent;
+    border-image: url(../assets/perforated-bottom@2x.png) 0 0 30 0 repeat;
+    position: relative;
+    top: -8px;
+    width: 100%;
+}
 .sub-footer-box-elements {
     flex: 1;
     padding: 50px 30px 50px 0px;
@@ -335,12 +359,13 @@ h4 {
 
 footer {
     background-color: #f4f4f4;
+    margin-top: -15px;
 }
 
 #footer-container {
     display: flex;
     justify-content: space-between;
-    padding-top: 30px;
+    padding-top: 40px;
 }
 
 #nav-bottom {
